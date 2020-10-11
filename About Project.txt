@@ -1,0 +1,8 @@
+This Minor Project is made by Aditya Maurya on my semister V.
+
+About Project->
+   This is a Quiz Project.
+   
+
+Language Used
+   .)HTML,CSS,JAVASCRIPT,JQUery

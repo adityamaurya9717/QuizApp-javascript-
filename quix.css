@@ -1,0 +1,54 @@
+body{
+    background-color: azure;
+}
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    top:40%;
+    left:50%;
+    width:600px;
+    transform: translate(-40%,-50%);
+}
+.innercontainer{
+    padding:30px;
+
+}
+span{
+    margin-left: 20px;
+    font-size:x-large;
+}
+button{
+    border:none;
+    background-color: aqua;
+    padding:10px 20px ; 
+    margin-top:30px;
+    width:100px;
+}
+.result{
+    display: none;
+    position: absolute;
+    top:30%;
+    left:45%;
+    transform:translate(-30%,-45%);
+    overflow:auto;
+}
+.innercontainer>span:hover{
+    color:green
+}
+button:hover{
+    background-color:greenyellow;
+}
+input[type=radio]{
+    
+    transform:scale(1.5);
+}
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quix.css">
+    <link rel="stylesheet" href="navigation.css">
+    <script src="jquery.min.js"></script>
+</head>
+<body>
+    <!--<script src="quiz.js"></script>-->
+    <script src="questions.js"></script>
+    <header>
+        <h1 style="text-align: center;">QUIZ APP</h1>
+    </header>
+
+   
+     
+      <!--Question Container-->
+    <div id="container" class="container">
+        <span style="font-size: 24px;" id="question"></span>
+      <div id="innercontainer" class="innercontainer">
+       A) <input type="radio" id="0" name="ans"><span id="ans1"></span><br>
+       B) <input type="radio" id="1" name="ans"><span id="ans2"></span><br>
+
+       C) <input type="radio" id="2" name="ans"><span id="ans3"></span><br>
+       D) <input type="radio" id="3" name="ans"><span id="ans4"></span><br>
+
+       <button id="pre">Previous</button>
+        <button id="next">Next</button>
+
+       </div>
+     </div>
+
+     <!-- result-->
+     <div class="result" id="result">
+         <h1 style="color:green">Your Result</h1><br><br><br>
+         <span>Your score is ==> </span>
+         <span id="score"></span><br><br>
+
+     </div>
+
+     <!--Right Question Navigation-->
+      <!--Right Question Navigation-->
+    <div class="questionNavigation">
+      <h1 style="text-align: center;">Questions</h1>
+      <div class="abc" id="questionbar">
+
+      </div>
+  </div>
+  <script src="sample.js"></script>
+
+      
+    
+</body>
+</html>
